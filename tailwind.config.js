@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#EE1D23", // Vibrant Red
-        dark: "#0F0F0F", // Rich Black
-        light: "#FFFFFF", // Pure White
-        gray: "#F4F4F5", // Subtle Gray for backgrounds
+        primary: "#F5F3EF", // Warm Off-White / Beige
+        dark: "#232323", // Deep Charcoal
+        light: "#FFFFFF", // Pure White for contrast in cards
+        gray: "#EBE9E4", // Slightly darker beige for borders/hover states
       },
       fontFamily: {
         sans: ["Manrope", "sans-serif"],

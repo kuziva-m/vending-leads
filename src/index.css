@@ -9,15 +9,19 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-light text-dark font-sans antialiased;
+    /* Using your new dark color as default text, primary as default background */
+    @apply bg-primary text-dark font-sans antialiased;
   }
 }
 
-/* Custom Red Mesh Gradient */
-.bg-mesh-red {
-  background-color: #ffffff;
-  background-image:
-    radial-gradient(at 0% 0%, rgba(238, 29, 35, 0.15) 0px, transparent 50%),
-    radial-gradient(at 100% 100%, rgba(15, 15, 15, 0.1) 0px, transparent 50%);
-  background-size: 100% 100%;
+/* Custom Minimalist Premium Background */
+.bg-premium {
+  background-color: #f5f3ef;
+  background-image: radial-gradient(at 50% 0%, #ffffff 0px, transparent 70%);
+}
+
+/* Selecting text highlight color */
+::selection {
+  background-color: #232323;
+  color: #f5f3ef;
 }
